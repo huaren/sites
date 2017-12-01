@@ -1,0 +1,99 @@
+div#header{
+    width: 945px;
+    height: 165px;
+    margin: 0 auto;
+}
+div#logo{
+    width: 310px;
+    height: 80px;
+    margin-top: 50px;
+    float: left;
+}
+div#login{
+    width: 180px;
+    height: 70px;
+    margin-top: 50px;
+    float: right;
+}
+div#login p{
+    font-family: Verdana;
+    font-size: 15px;
+    text-align: right;
+    margin-right: 50px;
+    color: #961414;
+    font-weight: bold;
+}
+div#login a{
+    text-decoration: none;
+    color: #961414;
+}
+div#login a:hover{
+    color: #d70303;
+}
+div#menu{
+    background: #961414;
+    width: 945px;
+    height: 65px;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+}
+div#menu ul{
+    list-style: none;
+}
+div#menu li{
+    margin-top: 25px;
+    float: left;
+    margin-right: 50px;
+}
+div#menu a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: verdana;
+    font-weight: bold;
+}
+div#menu a:hover{
+    color: #cccccc;
+}
+div#banner{
+    width: 945px;
+    height: 327px;
+    margin: 0 auto;
+}
+div#social{
+    width: 945px;
+    height: 400px;
+    margin: 0 auto;
+}
+div.redesocial{
+    width: 200px;
+    height: 360px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+}
+div.redesocial h1{
+    font-family: arial;
+    color: #961414;
+}
+div#footer{
+    width: 945px;
+    height: 50px;
+    background: #961414;
+    margin: 0 auto;
+    border-radius: 0 0 15px 15px;
+
+}
+div#footer{
+    background-color: #961414;
+    width: 945px;
+    height: 20px;
+    margin: 0 auto 5px auto;
+    padding: 15px;
+}
+div#footer p{
+    text-align: right;
+    margin: 0;
+    color: #ffffff;
+    font-weight: bold;
+}
