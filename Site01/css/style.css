@@ -93,6 +93,7 @@ div#footer{
     height: 20px;
     margin: 0 auto 5px auto;
     padding: 15px;
+    border-radius: 15px;
 }
 div#footer p{
     text-align: right;
