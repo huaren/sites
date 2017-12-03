@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+div#menu{
+  margin: 0 auto;
+  width: 900px;
+  height: 50px;
+  box-shadow: 0 8px 6px -6px black;
+}
+div#menu ul{
+  float: right;
+  margin-top: 5px;
+  list-style: none;
+  margin-right: 20px;
+}
+div#menu li{
+  padding: 10px;
+  float: left;
+}
+ul#nav a.selected{
+  border-top: 2px solid #3f99d7;
+  color: #3f99d7;
+}
+div#menu a{
+  text-decoration: none;
+  padding-top: 5px;
+  color: #003300;
+}
+div#banner{
+  height: 350px;
+  background-color: #3f99d7;
+  margin-bottom: 50px;
+  box-shadow: 0 5px 5px -5px #888888;
+}
+div#central{
+  width: 900px;
+  margin: 0 auto;
+}
+div#central img{
+  float: left;
+  padding-right: 80px;
+  padding-left: 50px;
+}
+div#central h1{
+  color: #dddddd;
+  font-family: arial;
+  font-size: 30px;
+  padding-top: 50px;
+}
+div#central h2{
+  color: #222222;
+  font-size: 20px;
+}
+div#central p{
+  color: #dddddd;
+  font-family: arial;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+div#central a{
+  text-decoration: none;
+  color: #222222;
+  font-family: arial;
+  padding: 10px 20px;
+  background: #dddddd;
+  padding-left: 20px;
+}
+div#central img,h2,p,a{
+ padding-top: 20px;
+ font-weight: bold;
+}
+div#newsblock{
+  width: 900px;
+  margin: 0 auto;
+}
+div.news{
+  padding: 15px 2px;
+  float: left;
+  width: 200px;
+  margin-left: 20px;
+  text-align: center;
+  background: #f8f8f8;
+  box-shadow: 0px 0px 10px #888888;
+}
+div.news a{
+  color: #eeeeee;
+  text-decoration: none;
+  background: #3f99d7;
+  padding: 5px 20px;
+}
+div.news p{
+  padding-bottom: 20px;
+}
+div#information{
+  background: #3f99d7;
+  margin-top: 50px;
+}
+div#infocenter{
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+div#infocenter h1{
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: arial;
+  color: #22222;
+}
+div#infocenter p{
+  font-size: 15px;
+  font-family: arial;
+  color: #22222;
+  padding-bottom: 30px;
+}
+div#infocenter span{
+  color: #ffffff;
+}
+div#footer{
+  height: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+div#footer p{
+  font-weight: bold;
+  font-size: 20px;
+
+}
+div.topbot{
+  height: 10px;
+  background: #3f99d7;
+}
