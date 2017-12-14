@@ -1,0 +1,48 @@
+/* RESET */
+*,*::after,*::before {margin: 0;padding: 0;text-decoration: none;list-style: none;}
+/* GLOBAL */
+body {background: #222;}
+img {width: 100%}
+.content {width: 100%;margin: auto;}
+/* HEADER */
+header .top-header {height: 100px;text-align: center;display: flex;align-items: center;justify-content: center;background: #222222;}
+header .top-header h1 {text-transform: uppercase;color: #f9f9f9;}
+header .top-header p {text-transform: uppercase;color: #f1f1f1;margin-bottom: 20px;}
+header nav {width: 100%;background: #058aad;}
+header nav ul {width: 50%;display: flex;justify-content: space-around;margin: auto;padding-top: 15px;padding-bottom: 15px;}
+header nav ul li a {color: #f9f9f9;}
+header nav ul li a.selecionado {background: #026596;padding: 10px;border-radius: 5px;}
+/* MAIN */
+main {background: #fff;display: flex;padding: 3%;}
+main div.links {width: 40%;margin-left: 5%;}
+main div.links a {text-decoration: underline;color: #666666;display: flex;flex-direction: column;margin-bottom: 5px;}
+main div.links h2 {font-size: 30px;color: #058aad;text-transform: uppercase;margin-bottom: 10px;}
+main div.paragrafo {width: 100%;margin-right: 5%;}
+main div.paragrafo h2 {font-size: 30px;color: #058aad;text-transform: uppercase;}
+main div.paragrafo h3 {font-size: 15px;color: #666666;text-transform: uppercase;margin-bottom: 20px;}
+main div.paragrafo p {color: #666666;}
+/* SECTION */
+section {display: flex;justify-content: space-around;width: 90%;margin: auto;padding: 5% 0;}
+section .item {width: 23%;}
+section .item h2 {text-transform: uppercase;color: #f9f9f9;margin-bottom: 15px;}
+section .item img {margin-bottom: 15px;}
+section .item p {color: #666666;margin-bottom: 20px;}
+section .item a {padding: 5px 20px;background: #058aad;color: #f9f9f9;}
+/* FOOTER */
+footer {background: #058aad;text-align: center;}
+footer p {padding: 1%;color: #f9f9f9;font-weight: bold;}
+/* RESPOSIVE */
+@media screen and (max-width:960px) {
+  /* HEADER */
+  header nav ul {flex-direction: column;width: 100%;text-align: center;padding-top: 30px;padding-bottom: 10px;}
+  header nav ul li {margin-bottom: 20px;}
+  /* MAIN */
+  main {flex-direction: column;text-align: center;}
+  main div.links {width: 90%;margin: auto;}
+  main div.paragrafo {width: 90%;margin: auto;padding-bottom: 20px;}
+  main div.paragrafo h2 {margin-top: 20px;}
+  /* SECTION */
+  section {flex-direction: column;}
+  section .item {width: 90%; margin: auto;}
+  section .item h2 {margin-top: 20px;}
+}
