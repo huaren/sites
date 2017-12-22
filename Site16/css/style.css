@@ -1,0 +1,20 @@
+*{margin: 0;padding: 0;}
+/* GLOBAL */
+.content{background: url('../img/bg.jpg');-webkit-background-size: cover;background-size: cover;width: 100%;font-family: arial;}
+/* HEADER */
+header{width: 100%;background: #01d08a;display: flex;flex-direction: column;align-items: center;justify-content: center;height: 60vh;}
+header .person{display: flex;width: 30%;}
+header .person img{border-radius: 50%;box-shadow: 0 0 5px #a2ffe8}
+header .person h1{color: #a2ffe8;margin-left: 1vw;margin-top: 3vh}
+header .texto{width: 80%;text-align: center;color: #a2ffe8;}
+header .texto p{margin-top: 5vh;}
+/* MAIN */
+main{width: 300px;height: 300px;margin: 2% auto;background: #f9f9f9;padding: 5%;border-radius: 50%;box-shadow: 0 0 10px #c8c8c8}
+main .form{display: flex;flex-direction: column;padding: 20px;}
+main .form input{margin-bottom: 5px;border: 2px solid #c1c1c1;outline: none;padding: 5px;}
+main .form textarea{resize: none;outline: none;border: 2px solid #c1c1c1;padding: 5px;}
+main .form .btn{background: #01d08a;text-align: center;border-radius: 50%;width: 70px;height: 70px;display: flex;justify-content: center;align-items: center;margin:15px auto;}
+main .form .btn a{text-decoration: none;color: #f9f9f9;}
+/* FOOTER */
+footer{background: #01d08a;padding: 20px;text-align: center;}
+footer h2{color: #a2ffe8;}
