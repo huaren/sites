@@ -1,0 +1,29 @@
+/* RESET */
+*{padding: 0;margin: 0;}
+/* GLOBAL */
+body{background: #f9f9f9;color: #252525;}
+a{text-decoration: none;color: #252525;}
+ul{list-style: none;}
+img{width: 100%;}
+/* HEADER */
+.container{width: 100%;}
+header .topheader, main .secondnav{width: 100%;margin: auto;display: flex;justify-content: space-around;padding: 30px;box-shadow: 5px 0 5px rgba(28, 28, 28, 0.53)}
+header .topheader ul, main .secondnav ul{display: flex;}
+header .topheader ul li, main .secondnav ul li{margin-left: 20px;}
+header .topheader ul li a, main .secondnav ul li a{text-transform: uppercase;font-weight: bold;}
+header .topheader ul li a.selected, main .secondnav ul li a.selected{border-bottom: 5px solid #01d08a;padding-bottom: 35px;color: #01d08a;}
+/* BANNER */
+.banner{width: 100%;height: 70vh;background: url('../img/bg.jpg');background-size: cover;display: flex;align-items: center;padding-left: 5%;}
+.banner .slogan{width: 50%;height: 50%;}
+.banner .slogan a{color: #f9f9f9;background: #01d08a;padding: 10px;border-radius: 3px;}
+/* BANNER TEXT */
+.banner .slogan h1{color: #171717;}
+.banner .slogan h3{color: #252525;}
+.banner .slogan h5{margin-bottom: 50px;color: #171717;}
+/* ARTICLE */
+article{width: 80%;text-align:center;margin: auto;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-gap: 10%;}
+article .item{margin: 30px 20px;}
+article .item img{border-radius: 50%;margin-bottom: 20px;}
+/* FOOTER */
+footer{width: 100%;background: #01d08a;padding: 20px;text-align: center;}
+footer h3{color: #f9f9f9;text-transform: uppercase;font-weight: bold;}
